@@ -18,26 +18,27 @@ body {
   margin: 0 auto;
 }
 
-.swiper-button-prev::after{
+.swiper-button-prev::after {
   font-size: 25px;
   
 }
-.swiper-button-next::after{
+.swiper-button-next::after {
   font-size: 25px;
+  
+}
+.swiper-button-next {
+  color: #db241d;
 
 }
-.swiper-button-next{
-  color: #db251b;
-
-}
-.swiper-button-prev{
-  color: #db251b;
+.swiper-button-prev {
+  color: #db241b;
 }
 
 .swiper-pagination-bullet {
   background-color: #d3d2d2;
   opacity: 1;
 }
+
 .swiper-pagination-bullet-active {
   background-color: #db251b;
 }
@@ -121,7 +122,7 @@ body {
   display: none;
 }
 
-.header-content{
+.header-content {
   margin-top: 200px;
   padding-bottom: 50px;
 }
@@ -132,10 +133,9 @@ body {
 }
 
 .slider-txt {
-  margin-right: 85px;
+  margin-left: 85px;
   width: 50%;
 }
-
 .slider-txt h1 {
   font-size: 70px;
   color: #FFFFFF;
@@ -207,11 +207,11 @@ body {
   padding-top: 25px;
 }
 
-.tabs input [type="radio"] {
+.tabs input[type="radio"] {
   display: none;
 }
 
-.tabs input [type="radio"]:checked + label {
+.tabs input[type="radio"]:checked + label {
   border-bottom: 2px solid #db251b;
   color: #FFFFFF;
 }
@@ -332,7 +332,7 @@ body {
   margin-bottom: 50px;
 }
 
-.horario.txt {
+.horario-txt {
   display: flex;
   justify-content: space-between;
 }
@@ -364,7 +364,7 @@ body {
 }
 
 .links h4 {
-  color: white;
+  color: #FFFFFF;
   text-transform: uppercase;
   margin-bottom: 25px;
 }
@@ -375,6 +375,9 @@ body {
   margin-bottom: 5px;
   display: inline-block;
 }
+
+
+
 
 @media(max-width: 991px) {
 
@@ -387,11 +390,11 @@ body {
   .menu-2 {
     display: none;
   }
-  .logo-1{
+  .logo-1 {
     width: 100px;
   }
 
-  .logo-2{
+  .logo-2 {
     width: 0;
   }
 
@@ -440,7 +443,7 @@ body {
     font-size: 16px;
   }
 
-  .btn-1{
+  .btn-1 {
     padding: 10px 25px;
     font-size: 14px;
   }
@@ -454,6 +457,9 @@ body {
     margin-right: 0px;
     width: 300px;
   }
+
+
+
 
   .swiper-horizontal > .swiper-pagination-bullets,
   .swiper-pagination-bullets, .swiper-pagination-horizontal,
@@ -533,5 +539,7 @@ body {
   .links h4{
     margin: 25px 0px 10px 0px;
   }
+
+
 
 }
